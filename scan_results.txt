@@ -1,0 +1,31 @@
+# Nmap 7.95 scan initiated Mon May 26 19:14:16 2025 as: nmap -sS -oN scan_results.txt 192.168.29.0/24
+Nmap scan report for reliance.reliance (192.168.29.1)
+Host is up (0.0048s latency).
+Not shown: 991 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+80/tcp   open   http
+443/tcp  open   https
+1900/tcp open   upnp
+2869/tcp closed icslap
+7443/tcp open   oracleas-https
+8002/tcp closed teradataordbms
+8080/tcp open   http-proxy
+8200/tcp closed trivnet1
+8443/tcp open   https-alt
+MAC Address: B4:A7:C6:E5:1E:45 (Servercom (India) Private Limited)
+
+Nmap scan report for 192.168.29.145
+Host is up (0.010s latency).
+All 1000 scanned ports on 192.168.29.145 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: D6:4E:4D:9F:1A:D8 (Unknown)
+
+Nmap scan report for 192.168.29.59
+Host is up (0.000032s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT      STATE SERVICE
+5000/tcp  open  upnp
+7000/tcp  open  afs3-fileserver
+49152/tcp open  unknown
+
+# Nmap done at Mon May 26 19:14:24 2025 -- 256 IP addresses (3 hosts up) scanned in 8.18 seconds
